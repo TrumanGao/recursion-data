@@ -1,7 +1,7 @@
 {
   "name": "recursion-data",
   "version": "1.0.0",
-  "description": "",
+  "description": "无限级树形递归组件，默认数据源 Vue.$store.state，用于 vue 项目 vuex state 数据展示。也可传入其他多层级数据。组件样式仿照 Vue Devtools 数据面板。",
   "main": "dist/recursion-data.js",
   "scripts": {
     "test": "npm test",
@@ -14,7 +14,8 @@
     "recursion-data-component"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:TrumanGao/recursion-data.git"
   },
   "author": "TrumanGao",
   "license": "ISC",

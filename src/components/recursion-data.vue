@@ -18,14 +18,14 @@ export default {
   components: { recursionItem },
   props: {
     state: {
+      type: Object,
       default() {
         return this.$store ? this.$store.state : {};
-      },
-      type: Object
+      }
     },
     fontSize: {
-      default: "18px",
-      type: String
+      type: String,
+      default: "18px"
     }
   }
 };
